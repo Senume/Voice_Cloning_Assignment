@@ -20,7 +20,7 @@ The model can effectively transfer the knowledge of speaker variability learned 
 
 1. Run the command 
 `python implementation.py`
-![I1](tutorial_tutorial_images/image.png)
+![I1](tutorial_images/image.png)
 
 2. As soon as the command is executed, Pretrained model will be automatically downloaded from drive and saved in`\src\saved_models` directory.
 ![I2](tutorial_images/Downloaded.png)
