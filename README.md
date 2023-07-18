@@ -20,18 +20,18 @@ The model can effectively transfer the knowledge of speaker variability learned 
 
 1. Run the command 
 `python implementation.py`
-![Alt text](Images/image.png)
+![I1](tutorial_tutorial_images/image.png)
 
 2. As soon as the command is executed, Pretrained model will be automatically downloaded from drive and saved in`\src\saved_models` directory.
-![Alt text](Images/Downloaded.png)
+![I2](tutorial_images/Downloaded.png)
 3. Specify the relate directory for the voice sample to be clones
-![Alt text](Images/Reference_voice.png)
+![I2](tutorial_images/Reference_voice.png)
 
 4. Enter a text input for synthesis
-![Alt text](Images/Input.png)
+![I3](tutorial_images/Input.png)
 
 5. Give in output file and systhesised voice will be available in the output folder
-![Alt text](Images/output.png)
+![I4](tutorial_images/output.png)
 
 Note: The pretrained model will automatically be downloaded. It wont be necessary to download manually. Case if the pretrained is downloaded manually, save the models in the following directory
 
@@ -78,4 +78,4 @@ We use these accent to synthesize a cloned voice to utter the following sentence
 ```Hello there, how are you? ```
 
 The respective synthesized output are saved in `output` directory.
-![Alt text](Images/samples_output.png)
+![I5](tutorial_images/samples_output.png)
