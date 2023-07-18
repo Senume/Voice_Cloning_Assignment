@@ -1,11 +1,14 @@
 import argparse
 import os
 from pathlib import Path
+import warnings
 
 import librosa
 import numpy as np
 import soundfile as sf
 import torch
+
+warnings.filterwarnings("ignore")
 
 from src.encoder import inference as encoder
 from src.encoder.params_model import model_embedding_size as speaker_embedding_size
@@ -83,7 +86,7 @@ if __name__ == '__main__':
 
         # The following two methods are equivalent:
         # - Directly load from the filepath:
-        preprocessed_wav = encoder.preprocess_wav('voice_sample' + in_fpath)
+        preprocessed_wav = encoder.preprocess_wav(in_fpath)
         
         # - If the wav is already loaded:
         original_wav, sampling_rate = librosa.load(str(in_fpath))
