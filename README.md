@@ -34,4 +34,4 @@ src/saved_models/default/vocoder.pt
 
 Links for the pretrained models, [encoder](https://drive.google.com/file/d/1q8mEGwCkFy23KZsinbuvdKAQLqNKbYf1/view?usp=sharing), [synthesizer](https://drive.google.com/file/d/1EqFMIbvxffxtjiVrtykroF6_mUh-5Z3s/view?usp=sharing), [vocoder](https://drive.google.com/file/d/1cf2NO6FtI0jDuy8AV3Xgn6leO6dHjIgu/view?usp=sharing)
 
-Demonstration video is available here
+Implementrate is compiled into a demonstration video.You can refer the video [here](https://drive.google.com/file/d/1MquvELvP8pFmmXTbgIfPbfZ2Vm2oCoCe/view?usp=sharing).
